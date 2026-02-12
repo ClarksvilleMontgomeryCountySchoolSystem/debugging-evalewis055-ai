@@ -21,7 +21,7 @@ def snippet_2():
     total_slices = pizzas * slices_per_pizza
     slices_each = total_slices // people
     print(f"Total slices: {total_slices}")
-    print(f"Slices per person: {slices_each")
+    print(f"Slices per person: {slices_each}")
 
 
 def snippet_3():
