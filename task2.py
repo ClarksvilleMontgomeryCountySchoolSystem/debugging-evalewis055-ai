@@ -28,9 +28,9 @@ def program_3():
     score1 = int(input("Score 1: "))
     score2 = int(input("Score 2: "))
     if score1 > score2:
-        print(f"Your first score ({score1}) was higher!")
+        print(f"Your first score {score1} was higher!")
     elif score2 > score1:
-        print(f"Your second score ({score2}) was higher!")
+        print(f"Your second score {score2} was higher!")
     else:
         print(f"Both scores are the same: {score1}!")
 
