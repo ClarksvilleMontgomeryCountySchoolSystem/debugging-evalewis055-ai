@@ -47,7 +47,7 @@ def snippet_4():
     print(f"Player 2: {player2_score} points")
     if player1_score > player2_score:
         print("Player 1 wins!")
-    elif player2_score > player1_score:
+    else:
         print("Player 2 wins!")
     else: 
         print("It's a tie!")
